@@ -1,0 +1,12 @@
+{application, example,
+ [
+  {description, "This is Erlang sample application"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { example_app, []}},
+  {env, []}
+ ]}.
